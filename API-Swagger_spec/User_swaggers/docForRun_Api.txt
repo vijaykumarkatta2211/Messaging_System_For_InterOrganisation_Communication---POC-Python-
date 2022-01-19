@@ -1,0 +1,14 @@
+changes need to do before running fast Api Over any New folder
+On Commant Line run :-
+pip install fastapi uvicorn pymongo
+#Afert that open CMD on location of file and run below commands for making file as virtual environment  
+########################################################
+py -m venv .
+cd Scripts
+activate
+cd ..
+#Once all commands run successfully the change in directory path 
+e.g.(Flask_swagger_ui) C:\Users\YADNYESH\Documents\Flask_swagger_ui>  
+#run server command on same directory i.e. uvicorn index:app --reload
+for ex:(Flask_swagger_ui) C:\Users\YADNYESH\Documents\Flask_swagger_ui>uvicorn index:app --reload
+#######################################################
